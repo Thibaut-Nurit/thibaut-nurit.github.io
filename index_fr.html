@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<title>CV - Thibaut Nurit</title>
 
@@ -33,14 +33,16 @@
 				<div class="row align-items-center">
 					<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
 						<h2 class="resume-name mb-0 text-uppercase">Thibaut Nurit</h2>
-						<div class="resume-tagline mb-3 mb-md-0">Master in Cyber-security & Cloud Computing</div>
+						<div class="resume-tagline mb-3 mb-md-0">Master en Cybersécurité & Cloud Computing</div>
 					</div><!--//resume-title-->
 					<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
-						<i id="enFlag" class="fi fi-gb fi-grayed fa-2x me-2" style="pointer-events: none;"></i>
-						<i id="frFlag" class="fi fi-fr fa-2x me-2" style="cursor: pointer;"></i>
+						<div class="d-flex flex-row justify-content-start align-items-center">
+							<i id="enFlag" class="fi fi-gb fa-2x me-2" style="cursor: pointer;"></i>
+							<i id="frFlag" class="fi fi-fr fi-grayed fa-2x me-2" style="pointer-events: none;"></i>
+						</div>
 						<script>
-							var currentLanguage = "en";
-    						document.getElementById("frFlag").addEventListener("click", function() { switchLanguage();});
+							var currentLanguage = "fr";
+    						document.getElementById("enFlag").addEventListener("click", function() { switchLanguage();});
 						</script>
 						<script src="script.js"></script>
 
@@ -52,7 +54,7 @@
 							<li class="mb-2">
 								<i class="fas fa-globe fa-fw fa-lg me-2"></i><a class="resume-link" href="https://thibaut-nurit.github.io/" target="_blank">thibaut-nurit.github.io</a></li>
 							<li class="mb-0">
-								<i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>Near Paris</li>
+								<i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>Près de Paris</li>
 						</ul>
 					</div><!--//resume-contact-->
 				</div><!--//row-->
@@ -66,7 +68,7 @@
 					</div>
 
 					<div class="col text-start">
-						<p class="mb-0 ms-3">Curious, I like to learn new ways to develop applications. I recently discovered my love for automation and am still discovering this wonderful world.</p>
+						<p class="mb-0 ms-3">Curieux, j'aime apprendre de nouvelles façons de développer des applications. J'ai récemment découvert mon amour pour l'automatisation et je continue d'explorer ce monde merveilleux.</p>
 					</div><!--//col-->
 				</div>
 			</div><!--//resume-intro-->
@@ -76,37 +78,38 @@
 				<div class="row">
 					<div class="resume-main col-12 col-lg-8 col-xl-9   pe-0   pe-lg-5">
 						<section class="work-section py-3">
-							<h3 class="text-uppercase resume-section-heading mb-4">Work Experience</h3>
+							<h3 class="text-uppercase resume-section-heading mb-4">Expérience professionnelle</h3>
 							<div class="item mb-3">
 								<div class="item-heading row align-items-center mb-2">
-									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Backend Developer / Ops</h4>
-									<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">UAVIA | April 2023 - August 2023</div>
+									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Développeur Backend / Ops</h4>
+									<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">UAVIA | Avril 2023 - Août 2023</div>
 								</div>
 								<div class="item-content">
 									<p>
-										Develop features and bug fixes to improve the resilience of UAVIA's platform and enhance its quality processes using agile development methodologies.
+										Développer des fonctionnalités et apporter des corrections pour améliorer la résilience de la plateforme d'UAVIA et renforcer ses processus de
+										qualité en utilisant des méthodologies de développement agile.
 									</p>
 									<ul class="resume-list">
-										<li>Development of features and bug fixes in java / spring boot</li>
-										<li>Implementation of Reusable Workflows with GitHub Actions</li>
-										<li>Implementation of automatic GitHub releases and changelog for backend repositories</li>
-										<li>Modification of CI pipeline configuration files</li>
-										<li>Providing support for previous versions</li>
-										<li>Analysis of existing products in the market regarding new needs</li>
-										<li>Documentation of developed features and of tests done</li>
+										<li>Développement de fonctionnalités et corrections de bogues en Java / Spring Boot</li>
+										<li>Implémentation de flux de travail réutilisables avec GitHub Actions</li>
+										<li>Implémentation de versions automatiques sur GitHub et journal des modifications pour les dépôts backend</li>
+										<li>Modification des fichiers de configuration de la pipeline d'intégration continue (CI)</li>
+										<li>Fournir un support pour les versions précédentes</li>
+										<li>Analyse des produits existants sur le marché en ce qui concerne les nouveaux besoins</li>
+										<li>Documentation des fonctionnalités développées et des tests réalisés</li>
 									</ul>
 								</div>
 								<div class=item-content>
 									<p>Technologies</p>
 									<ul class=resume-list>
 										<li>
-											<strong>Development</strong>
+											<strong>Développement</strong>
 											: <a href="https://spring.io/projects/spring-boot" target="_blank">Spring Boot</a>
 											, <a href="https://github.com/aquasecurity/trivy" target="_blank">Trivy</a>
 											, <a href="https://www.sonarsource.com/products/sonarqube/" target="_blank">SonarQube</a>
 										</li>
 										<li>
-											<strong>Deployment</strong>
+											<strong>Déploiement</strong>
 											: <a href="https://github.com/features/actions" target="_blank">Github-Action</a>
 											, <a href="https://argoproj.github.io/argo-cd/" target="_blank">ArgoCD</a>
 											, <a href="https://kubernetes.io/" target="_blank">Kubernetes</a>
@@ -116,48 +119,53 @@
 							</div><!--//item-->
 							<div class="item mb-3">
 								<div class="item-heading row align-items-center mb-2">
-									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Salesperson</h4>
-									<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Decathlon | June 2021 - August 2021</div>
+									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Vendeur</h4>
+									<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Decathlon | Juin 2021 - Août 2021</div>
 								</div>
 								<div class="item-content">
 									<p>
-										Advise customers, meet their needs and guarantee quality shelving and product availability. Promote store services, contribute to speedy checkout processes and ensure accurate
-										handling of returned items.
+										Conseiller les clients, répondre à leurs besoins et garantir des étagères bien rangées ainsi que la
+										disponibilité des produits. Promouvoir les services du magasin, contribuer à des processus de paiement
+										rapides et assurer une gestion précise des articles retournés
 									</p>
 									<ul class="resume-list">
-										<li>Customer Relationship</li>
-										<li>Product Discovery Event Organization</li>
-										<li>Financial Operations and Tech Support</li>
-										<li>Shelf Supply and Order Management</li>
+										<li>Relation client</li>
+										<li>Organisation d'événements de découverte de produits</li>
+										<li>Opérations financières et support technique</li>
+										<li>Organisations des étagères et gestion des commandes</li>
 									</ul>
 								</div>
 							</div><!--//item-->
 						</section><!--//work-section-->
 
 						<section class="project-section py-3">
-							<h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
+							<h3 class="text-uppercase resume-section-heading mb-4">Projets</h3>
 							<div class="item mb-3">
 								<div class="item-heading row align-items-center mb-2">
-									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project VeloMax</h4>
+									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Projet VeloMax</h4>
 								</div>
 								<div class="item-content">
 									<p>
-										Functional application to manage a MySQL database for a bike shop. Complete management including the addition, deletion and modification of customers,
-										suppliers, products, orders, along with admin and visitor permission systems. Additionally, it supports data export in XML or JSON formats and includes a statistical analysis module
+										Application fonctionnelle pour gérer une base de données MySQL pour un
+										magasin de vélos. Gestion complète comprenant l'ajout, la suppression et
+										la modification de clients, fournisseurs, produits, commandes, ainsi que
+										des systèmes de permission pour les administrateurs et les visiteurs.
+										De plus, elle prend en charge l'exportation des données aux
+										formats XML ou JSON et inclut un module d'analyse statistique.
 									</p>
 									<ul class="resume-list">
-										<li>WPF Application developed in C# with a MySQL database</li>
-										<li>Database Management</li>
-										<li>Admin Permissions</li>
-										<li>Data Export (XML/JSON)</li>
+										<li>Application WPF développée en C# avec une base de données MySQL</li>
+										<li>Gestion de base de données</li>
+										<li>Droits d'administrateurs</li>
+										<li>Exportation de données (XML/JSON)</li>
 									</ul>
 									<p>Technologies</p>
 									<ul class=resume-list>
 										<li>
-											<strong>Development</strong>
-											: <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a>
-											, <a href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-7.0" target="_blank">Windows Presentation Foundation (WPF)</a>
-											, <a href="https://www.mysql.com/" target="_blank">MySQL</a>
+											<strong>Développement</strong>
+											: <a href="https://learn.microsoft.com/fr-fr/dotnet/csharp/" target="_blank">C#</a>
+											, <a href="https://learn.microsoft.com/fr-fr/dotnet/desktop/wpf/overview/?view=netdesktop-7.0" target="_blank">Windows Presentation Foundation (WPF)</a>
+											, <a href="https://www.mysql.com/fr/" target="_blank">MySQL</a>
 										</li>
 									</ul>
 									<!--<p>You can use this section for your side projects. You can <a href="#" class="theme-link">provide a project link here</a> as well</p>-->
@@ -166,20 +174,24 @@
 
 							<div class="item">
 								<div class="item-heading row align-items-center mb-2">
-									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Bakery</h4>
+									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Projet Boulangerie</h4>
 								</div>
 								<div class="item-content">
-									<p>Functional application for a bakery website. Users can sign in as clients to purchase items from both the bakery and pastry sections</p>
+									<p>
+										Application fonctionnelle pour un site web de boulangerie.
+										Les utilisateurs peuvent se connecter en tant que clients pour acheter
+										des articles à la fois dans la section boulangerie et pâtisserie
+									</p>
 									<ul class="resume-list">
-										<li>WPF Application developed in C#</li>
-										<li>Data is handled using text files</li>
+										<li>Application WPF développée en C#</li>
+										<li>Les données sont gérées à l'aide de fichiers texte</li>
 									</ul>
 									<p>Technologies</p>
 									<ul class=resume-list>
 										<li>
-											<strong>Development</strong>
-											: <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a>
-											, <a href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-7.0" target="_blank">Windows Presentation Foundation (WPF)</a>
+											<strong>Développement</strong>
+											: <a href="https://learn.microsoft.com/fr-fr/dotnet/csharp/" target="_blank">C#</a>
+											, <a href="https://learn.microsoft.com/fr-fr/dotnet/desktop/wpf/overview/?view=netdesktop-7.0" target="_blank">Windows Presentation Foundation (WPF)</a>
 										</li>
 									</ul>
 								</div>
@@ -187,21 +199,23 @@
 
 							<div class="item">
 								<div class="item-heading row align-items-center mb-2">
-									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Fifteen Puzzle</h4>
+									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Jeu du taquin</h4>
 								</div>
 								<div class="item-content">
-									<p>Project to play the Fifteen Puzzle Game on the command prompt</p>
+									<p>Projet pour jouer au jeu du Taquin sur l'invite de commande</p>
 									<ul class="resume-list">
-										<li>C# project</li>
-										<li>Implemented a text-based interface for user interaction</li>
-										<li>Selection of ASCII Art Images to Solve</li>
+										<li>Projet C#</li>
+										<li>Implémentation d'une interface utilisateur basée sur du texte pour
+											l'interaction avec l'utilisateur
+										</li>
+										<li>Sélection d'images en art ASCII à résoudre</li>
 									</ul>
 									<p>Technologies</p>
 									<ul class=resume-list>
 										<li>
-											<strong>Development</strong>
-											: <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a>
-											, <a href="https://en.wikipedia.org/wiki/15_puzzle" target="_blank">Fifteen Puzzle</a>
+											<strong>Développement</strong>
+											: <a href="https://learn.microsoft.com/fr-fr/dotnet/csharp/" target="_blank">C#</a>
+											, <a href="https://fr.wikipedia.org/wiki/Taquin" target="_blank">Taquin</a>
 										</li>
 									</ul>
 								</div>
@@ -211,41 +225,41 @@
 
 					<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
 						<section class="skills-section py-3">
-							<h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
+							<h3 class="text-uppercase resume-section-heading mb-4">Compétences</h3>
 							<div class="item">
-								<h4 class="item-title">Technical</h4>
+								<h4 class="item-title">Techniques</h4>
 
 								<ul class="list-unstyled resume-skills-list">
 									<li class="mb-2">Java/Spring Boot</li>
 									<li class="mb-2">C#</li>
-									<li class="mb-2">Object-oriented design</li>
+									<li class="mb-2">Programmation orientée objet</li>
 									<li class="mb-2">Node.js/ASP.NET</li>
 									<li class="mb-2">Azure Active Directory</li>
 									<li class="mb-2">Kubernetes</li>
 									<li class="mb-2">MySQL/PostgreSQL/SQL Developer</li>
-									<li class="mb-2">Design and implement database structures</li>
+									<li class="mb-2">Concevoir et mettre en œuvre des structures de base de données</li>
 									<li>HTML/CSS</li>
 								</ul>
 							</div><!--//item-->
 							<div class="item">
-								<h4 class="item-title">Professional</h4>
+								<h4 class="item-title">Professionnelles</h4>
 								<ul class="list-unstyled resume-skills-list">
-									<li class="mb-2">Effective communication</li>
-									<li class="mb-2">Team player<li>
-									<li>Strong problem solver</li>
+									<li class="mb-2">Communication efficace</li>
+									<li class="mb-2">Esprit d'équipe<li>
+									<li>Résolveur de problèmes</li>
 								</ul>
 							</div><!--//item-->
 						</section><!--//skills-section-->
 						<section class="education-section py-3">
-							<h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
+							<h3 class="text-uppercase resume-section-heading mb-4">Éducation</h3>
 							<ul class="list-unstyled resume-education-list">
 								<li class="mb-3">
-									<div class="resume-degree font-bold" style="font-weight: bold">Master in Cyber-security & Cloud Computing</div>
-									<div class="resume-degree-org text-muted">ESILV • Engineering school Paris</div>
+									<div class="resume-degree font-bold" style="font-weight: bold">Master en Cybersécurité & Cloud Computing</div>
+									<div class="resume-degree-org text-muted">ESILV • École d'ingénieurs à Paris</div>
 									<div class="resume-degree-time text-muted">2019 - 2024</div>
 								</li>
 								<li>
-									<div class="resume-degree font-bold" style="font-weight: bold">Semester abroad • Engineering</div>
+									<div class="resume-degree font-bold" style="font-weight: bold">Semestre à l'étranger • Ingénierie</div>
 									<div class="resume-degree-org text-muted">Dorset College Dublin</div>
 									<div class="resume-degree-time text-muted">2021 - 2022</div>
 								</li>
@@ -255,32 +269,32 @@
 							<h3 class="text-uppercase resume-section-heading mb-4">Certifications</h3>
 							<ul class="list-unstyled resume-awards-list">
 								<li class="mb-3">
-									<div class="font-bold" style="font-weight: bold">TOEFL ITP (english)</div>
+									<div class="font-bold" style="font-weight: bold">TOEFL ITP (anglais)</div>
 									<div class="text-muted">B2</div>
 								</li>
 								<li>
-									<div class="font-bold" style="font-weight: bold">PLIDA (italian)</div>
+									<div class="font-bold" style="font-weight: bold">PLIDA (italien)</div>
 									<div class="text-muted">B1</div>
 								</li>
 							</ul>
 						</section><!--//education-section-->
 						<section class="skills-section py-3">
-							<h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
+							<h3 class="text-uppercase resume-section-heading mb-4">Langues</h3>
 							<ul class="list-unstyled resume-lang-list">
-								<li class="mb-2">French <span class="text-muted">(Native)</span></li>
-								<li class="mb-2">English <span class="text-muted">(Proficient)</span></li>
-								<li class="mb-2">Italian <span class="text-muted">(Intermediate)</span></li>
-								<li>Chinese <span class="text-muted">(Basic Knowledge)</span></li>
+								<li class="mb-2">Français <span class="text-muted">(Langue maternelle)</span></li>
+								<li class="mb-2">Anglais <span class="text-muted">(Professionnel)</span></li>
+								<li class="mb-2">Italien <span class="text-muted">(Intermédiaire)</span></li>
+								<li>Chinois <span class="text-muted">(Notions)</span></li>
 							</ul>
 						</section><!--//certificates-section-->
 						<section class="skills-section py-3">
-							<h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
+							<h3 class="text-uppercase resume-section-heading mb-4">Centres d'intérêt</h3>
 							<ul class="list-unstyled resume-interests-list mb-0">
 								<li class="mb-2">Baby-foot</li>
 								<li class="mb-2">Manga / Webtoon</li>
-								<li class="mb-2">Video games</li>
-								<li class="mb-2">Cooking</li>
-								<li>Hiking</li>
+								<li class="mb-2">Jeux vidéo</li>
+								<li class="mb-2">Cuisiner</li>
+								<li>Randonnée</li>
 							</ul>
 						</section><!--//certificates-section-->
 
