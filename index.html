@@ -33,11 +33,13 @@
 				<div class="row align-items-center">
 					<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
 						<h2 class="resume-name mb-0 text-uppercase">Thibaut Nurit</h2>
-						<div class="resume-tagline mb-3 mb-md-0">Master in Cyber-security & Cloud Computing</div>
+						<div class="resume-tagline mb-3 mb-md-0">Cloud DevOps Engineer</div>
 					</div><!--//resume-title-->
 					<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
-						<i id="enFlag" class="fi fi-gb fi-grayed fa-2x me-2" style="pointer-events: none;"></i>
-						<i id="frFlag" class="fi fi-fr fa-2x me-2" style="cursor: pointer;"></i>
+						<div class="d-flex flex-row justify-content-start align-items-center">
+							<i id="enFlag" class="fi fi-gb fi-grayed fa-2x me-2" style="pointer-events: none;"></i>
+							<i id="frFlag" class="fi fi-fr fa-2x me-2" style="cursor: pointer;"></i>
+						</div>
 						<script>
 							var currentLanguage = "en";
     						document.getElementById("frFlag").addEventListener("click", function() { switchLanguage();});
@@ -62,11 +64,11 @@
 			<div class="resume-intro py-3">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-4 col-xl-3 text-center">
-						<img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/resume-profile.png" alt="image">
+						<img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/resume-profile.jpg" alt="image">
 					</div>
 
 					<div class="col text-start">
-						<p class="mb-0 ms-3">Curious, I like to learn new ways to develop applications. I recently discovered my love for automation and am still discovering this wonderful world.</p>
+						<p class="mb-0 ms-3">I'm passionate about building reliable systems and making them easier to operate. I enjoy learning new technologies, and I'm even more interested in understanding when and why to use them. I like solving problems with simple, reliable solutions that are easy to maintain.</p>
 					</div><!--//col-->
 				</div>
 			</div><!--//resume-intro-->
@@ -75,11 +77,191 @@
 			<div class="resume-body">
 				<div class="row">
 					<div class="resume-main col-12 col-lg-8 col-xl-9   pe-0   pe-lg-5">
-						<section class="work-section py-3">
-							<h3 class="text-uppercase resume-section-heading mb-4">Work Experience</h3>
-							<div class="item mb-3">
-								<div class="item-heading row align-items-center mb-2">
-									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Cyber consultant</h4>
+				<section class="work-section py-3">
+					<h3 class="text-uppercase resume-section-heading mb-4">Work Experience</h3>
+
+										<div class="item mb-3">
+						<div class="item-heading row align-items-center mb-2">
+							<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">DevOps Engineer | ArmoniK</h4>
+							<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Aneo | June 2026 - December 2026</div>
+						</div>
+						<div class="item-content">
+							<p>
+								Developed Helm charts to deploy ArmoniK, a distributed task execution platform for compute-intensive workloads, on Google Cloud Platform.
+							</p>
+							<ul class="resume-list">
+									<li>Designed and maintained Helm charts for ArmoniK deployment on GKE</li>
+									<li>Parameterized deployments to fit client cloud environments and workload requirements</li>
+									<li>Integrated required Kubernetes resources and dependencies for a reliable cloud-native setup</li>
+									<li>Deployed and validated the platform on GCP for compute-intensive workloads</li>
+									<li>Supported troubleshooting, tuning, and operational follow-up of the deployed environment</li>
+									<li>Documented installation, configuration, and operational procedures</li>
+							</ul>
+						</div>
+						<div class=item-content>
+							<p>Technologies</p>
+							<ul class="resume-list mb-4">
+									<li>
+										<strong>Cloud Provider</strong>
+										: <a href="https://cloud.google.com/" target="_blank">Google Cloud Platform</a>
+									</li>
+									<li>
+										<strong>GCP Services</strong>
+										: <a href="https://cloud.google.com/kubernetes-engine" target="_blank">GKE</a>, <a href="https://cloud.google.com/storage" target="_blank">Cloud Storage</a>, <a href="https://cloud.google.com/pubsub" target="_blank">Pub/Sub</a>, <a href="https://cloud.google.com/iam" target="_blank">IAM</a>
+									</li>
+									<li>
+										<strong>Orchestration</strong>
+										: <a href="https://kubernetes.io/" target="_blank">Kubernetes</a>, <a href="https://helm.sh/" target="_blank">Helm</a>
+									</li>
+									<li>
+										<strong>Infrastructure</strong>
+										: <a href="https://developer.hashicorp.com/terraform" target="_blank">Terraform</a>, <a href="https://www.docker.com/" target="_blank">Docker</a>
+									</li>
+							</ul>
+						</div>
+					</div><!--//item-->
+
+										<div class="item mb-3">
+						<div class="item-heading row align-items-center mb-2">
+							<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">DevOps Engineer | Google Workflows</h4>
+							<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Aneo | September 2025 - June 2026</div>
+						</div>
+						<div class="item-content">
+							<p>
+								Migrated an automotive client's on-premise cluster to Google Cloud Platform, building a job orchestration solution on Google Workflows with custom job and output management.
+							</p>
+							<ul class="resume-list">
+									<li>Built Google Workflows pipelines for job orchestration and management</li>
+									<li>Created GitLab CI pipelines to build application images with Packer and Dockerfile</li>
+									<li>Added functional tests and automated their execution via GitLab CI</li>
+									<li>Led knowledge transfer and production deployment</li>
+							</ul>
+						</div>
+						<div class=item-content>
+							<p>Technologies</p>
+							<ul class="resume-list mb-4">
+									<li>
+										<strong>Cloud Provider</strong>
+										: <a href="https://cloud.google.com/" target="_blank">Google Cloud Platform</a>
+									</li>
+									<li>
+										<strong>GCP Services</strong>
+										: <a href="https://cloud.google.com/storage" target="_blank">Cloud Storage</a>, <a href="https://cloud.google.com/workflows" target="_blank">Workflows</a>, <a href="https://cloud.google.com/kubernetes-engine" target="_blank">GKE</a>, <a href="https://cloud.google.com/instance-groups" target="_blank">MIG</a>, <a href="https://cloud.google.com/private-service-connect" target="_blank">PSC</a>
+									</li>
+									<li>
+										<strong>Orchestration</strong>
+										: <a href="https://kubernetes.io/" target="_blank">Kubernetes</a>
+									</li>
+									<li>
+										<strong>Infrastructure</strong>
+										: <a href="https://developer.hashicorp.com/terraform" target="_blank">Terraform</a>, <a href="https://developer.hashicorp.com/packer" target="_blank">Packer</a>, <a href="https://www.docker.com/" target="_blank">Docker</a>
+									</li>
+									<li>
+										<strong>Scripting</strong>
+										: <a href="https://www.python.org/" target="_blank">Python</a>, <a href="https://www.gnu.org/software/bash/" target="_blank">Bash</a>
+									</li>
+									<li>
+										<strong>CI/CD</strong>
+										: <a href="https://docs.gitlab.com/ci/" target="_blank">GitLab CI</a>
+									</li>
+							</ul>
+						</div>
+					</div><!--//item-->
+										<div class="item mb-3">
+						<div class="item-heading row align-items-center mb-2">
+							<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">DevOps Engineer | HTCondor</h4>
+							<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Aneo | October 2024 - December 2026</div>
+						</div>
+						<div class="item-content">
+							<p>
+								Migrated an automotive client's on-premise and Azure clusters to Google Cloud Platform, building a batch-computing platform on HTCondor and Google Cluster Toolkit with custom job and output management.
+							</p>
+							<ul class="resume-list">
+									<li>Automated functional test execution via GitLab CI pipelines</li>
+									<li>Diagnosed infrastructure issues via serial console access, GCP Cloud Logging, and Linux/Windows log analysis</li>
+									<li>Implemented GCP firewall rules and Kubernetes network policies with Calico</li>
+									<li>Built Windows and Linux images with Packer</li>
+									<li>Led knowledge transfer and production deployment</li>
+							</ul>
+						</div>
+						<div class=item-content>
+							<p>Technologies</p>
+							<ul class="resume-list mb-4">
+									<li>
+										<strong>Cloud Provider</strong>
+										: <a href="https://cloud.google.com/" target="_blank">Google Cloud Platform</a>
+									</li>
+									<li>
+										<strong>GCP Services</strong>
+										: <a href="https://cloud.google.com/kubernetes-engine" target="_blank">GKE</a>, <a href="https://cloud.google.com/instance-groups" target="_blank">MIG</a>, <a href="https://cloud.google.com/run" target="_blank">Cloud Run</a>, <a href="https://cloud.google.com/sql" target="_blank">Cloud SQL</a>, <a href="https://cloud.google.com/private-service-connect" target="_blank">PSC</a>
+									</li>
+									<li>
+										<strong>Orchestration</strong>
+										: <a href="https://kubernetes.io/" target="_blank">Kubernetes</a>, <a href="https://docs.tigera.io/" target="_blank">Calico</a>
+									</li>
+									<li>
+										<strong>Infrastructure</strong>
+										: <a href="https://htcondor.org/" target="_blank">HTCondor</a>, <a href="https://docs.cloud.google.com/cluster-toolkit/docs/overview" target="_blank">Cluster Toolkit</a>, <a href="https://developer.hashicorp.com/terraform" target="_blank">Terraform</a>, <a href="https://developer.hashicorp.com/packer" target="_blank">Packer</a>
+									</li>
+									<li>
+										<strong>Scripting</strong>
+										: <a href="https://www.python.org/" target="_blank">Python</a>, <a href="https://www.gnu.org/software/bash/" target="_blank">Bash</a>
+									</li>
+									<li>
+										<strong>CI/CD</strong>
+										: <a href="https://docs.gitlab.com/ci/" target="_blank">GitLab CI</a>
+									</li>
+							</ul>
+						</div>
+					</div><!--//item-->
+
+										<div class="item mb-3">
+						<div class="item-heading row align-items-center mb-2">
+							<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">DevOps Engineer | Slurm</h4>
+							<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Aneo | October 2024 - December 2026</div>
+						</div>
+						<div class="item-content">
+							<p>
+								Migrated two of an automotive client's on-premise clusters to Google Cloud Platform, building a batch-computing platform on SlurmGCP with custom job and output management.
+							</p>
+							<ul class="resume-list">
+									<li>Automated functional test execution via GitLab CI pipelines</li>
+									<li>Diagnosed infrastructure issues via serial console access, GCP Cloud Logging, and Linux/Windows log analysis</li>
+									<li>Extended and evolved the initial infrastructure</li>
+									<li>Migrated the cluster from Slurm 23 to Slurm 24</li>
+									<li>Led knowledge transfer and production deployment</li>
+							</ul>
+						</div>
+						<div class=item-content>
+							<p>Technologies</p>
+							<ul class="resume-list mb-4">
+									<li>
+										<strong>Cloud Provider</strong>
+										: <a href="https://cloud.google.com/" target="_blank">Google Cloud Platform</a>
+									</li>
+									<li>
+										<strong>GCP Services</strong>
+										: <a href="https://cloud.google.com/storage" target="_blank">Cloud Storage</a>, <a href="https://cloud.google.com/run" target="_blank">Cloud Run</a>, <a href="https://cloud.google.com/filestore" target="_blank">Cloud Filestore</a>, <a href="https://cloud.google.com/instance-groups" target="_blank">MIG</a>, <a href="https://cloud.google.com/pubsub" target="_blank">Cloud Pub/Sub</a>, <a href="https://cloud.google.com/private-service-connect" target="_blank">PSC</a>
+									</li>
+									<li>
+										<strong>Infrastructure</strong>
+										: <a href="https://slurm.schedmd.com/overview.html" target="_blank">Slurm</a>, <a href="https://developer.hashicorp.com/terraform" target="_blank">Terraform</a>
+									</li>
+									<li>
+										<strong>Scripting</strong>
+										: <a href="https://www.python.org/" target="_blank">Python</a>, <a href="https://www.gnu.org/software/bash/" target="_blank">Bash</a>
+									</li>
+									<li>
+										<strong>CI/CD</strong>
+										: <a href="https://docs.gitlab.com/ci/" target="_blank">GitLab CI</a>
+									</li>
+							</ul>
+						</div>
+					</div><!--//item-->
+
+					<div class="item mb-3">
+						<div class="item-heading row align-items-center mb-2">
+							<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Cyber consultant</h4>
 									<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">WAVESTONE | March 2024 - August 2024</div>
 								</div>
 								<div class="item-content">
@@ -173,80 +355,6 @@
 								</div>
 							</div><!--//item-->
 						</section><!--//work-section-->
-
-						<section class="project-section py-3">
-							<h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
-							<div class="item mb-3">
-								<div class="item-heading row align-items-center mb-2">
-									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project VeloMax</h4>
-								</div>
-								<div class="item-content">
-									<p>
-										Functional application to manage a MySQL database for a bike shop. Complete management including the addition, deletion and modification of customers,
-										suppliers, products, orders, along with admin and visitor permission systems. Additionally, it supports data export in XML or JSON formats and includes a statistical analysis module
-									</p>
-									<ul class="resume-list">
-										<li>WPF Application developed in C# with a MySQL database</li>
-										<li>Database Management</li>
-										<li>Admin Permissions</li>
-										<li>Data Export (XML/JSON)</li>
-									</ul>
-									<p>Technologies</p>
-									<ul class=resume-list>
-										<li>
-											<strong>Development</strong>
-											: <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a>
-											, <a href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-7.0" target="_blank">Windows Presentation Foundation (WPF)</a>
-											, <a href="https://www.mysql.com/" target="_blank">MySQL</a>
-										</li>
-									</ul>
-									<!--<p>You can use this section for your side projects. You can <a href="#" class="theme-link">provide a project link here</a> as well</p>-->
-								</div>
-							</div><!--//item-->
-
-							<div class="item">
-								<div class="item-heading row align-items-center mb-2">
-									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Project Bakery</h4>
-								</div>
-								<div class="item-content">
-									<p>Functional application for a bakery website. Users can sign in as clients to purchase items from both the bakery and pastry sections</p>
-									<ul class="resume-list">
-										<li>WPF Application developed in C#</li>
-										<li>Data is handled using text files</li>
-									</ul>
-									<p>Technologies</p>
-									<ul class=resume-list>
-										<li>
-											<strong>Development</strong>
-											: <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a>
-											, <a href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-7.0" target="_blank">Windows Presentation Foundation (WPF)</a>
-										</li>
-									</ul>
-								</div>
-							</div><!--//item-->
-
-							<div class="item">
-								<div class="item-heading row align-items-center mb-2">
-									<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Fifteen Puzzle</h4>
-								</div>
-								<div class="item-content">
-									<p>Project to play the Fifteen Puzzle Game on the command prompt</p>
-									<ul class="resume-list">
-										<li>C# project</li>
-										<li>Implemented a text-based interface for user interaction</li>
-										<li>Selection of ASCII Art Images to Solve</li>
-									</ul>
-									<p>Technologies</p>
-									<ul class=resume-list>
-										<li>
-											<strong>Development</strong>
-											: <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a>
-											, <a href="https://en.wikipedia.org/wiki/15_puzzle" target="_blank">Fifteen Puzzle</a>
-										</li>
-									</ul>
-								</div>
-							</div><!--//item-->
-						</section><!--//project-section-->
 					</div><!--//resume-main-->
 
 					<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
@@ -256,22 +364,23 @@
 								<h4 class="item-title">Technical</h4>
 
 								<ul class="list-unstyled resume-skills-list">
-									<li class="mb-2">Java/Spring Boot</li>
-									<li class="mb-2">C#</li>
-									<li class="mb-2">Object-oriented design</li>
-									<li class="mb-2">Node.js/ASP.NET</li>
-									<li class="mb-2">Azure Active Directory</li>
 									<li class="mb-2">Kubernetes</li>
-									<li class="mb-2">MySQL/PostgreSQL/SQL Developer</li>
-									<li class="mb-2">Design and implement database structures</li>
-									<li>HTML/CSS</li>
+									<li class="mb-2">Terraform</li>
+									<li class="mb-2">GCP</li>
+									<li class="mb-2">Docker</li>
+									<li class="mb-2">Helm</li>
+									<li class="mb-2">Git (Gitlab, GitHub)</li>
+									<li class="mb-2">Linux</li>
+									<li class="mb-2">Bash</li>
+									<li class="mb-2">Python</li>
+									<li class="mb-2">Troubleshooting &amp; Log Analysis (GCP Cloud Logging, Linux/Windows)</li>
 								</ul>
 							</div><!--//item-->
 							<div class="item">
 								<h4 class="item-title">Professional</h4>
 								<ul class="list-unstyled resume-skills-list">
 									<li class="mb-2">Effective communication</li>
-									<li class="mb-2">Team player<li>
+									<li class="mb-2">Team player</li>
 									<li>Strong problem solver</li>
 								</ul>
 							</div><!--//item-->
