@@ -1,0 +1,12 @@
+{
+  "name": "thibaut-nurit-cv",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Local tooling for exporting the CV pages to PDF",
+  "scripts": {
+    "pdf": "node scripts/generate-pdf.mjs"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.9.0"
+  }
+}

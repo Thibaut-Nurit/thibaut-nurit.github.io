@@ -1,0 +1,60 @@
+@media print {
+	@page {
+		size: A4;
+		margin: 12mm;
+	}
+
+	html, body {
+		background: #fff !important;
+	}
+
+	.main-wrapper {
+		background: none !important;
+	}
+
+	.container {
+		max-width: 100% !important;
+		padding: 0 !important;
+	}
+
+	.resume-wrapper {
+		max-width: 100% !important;
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		box-shadow: none !important;
+		border: none !important;
+	}
+
+	/* Force every grid column used in the resume to stack full-width so nothing
+	   overflows the printable page width, regardless of the renderer's viewport. */
+	.row > [class*="col-"] {
+		flex: 0 0 100% !important;
+		max-width: 100% !important;
+		width: 100% !important;
+	}
+
+	.item-meta {
+		text-align: left !important;
+	}
+
+	.item-title, .item-meta, .resume-list li, .resume-skills-list li {
+		overflow-wrap: anywhere;
+	}
+
+	/* Language switcher only makes sense on the live site */
+	#enFlag, #frFlag {
+		display: none !important;
+	}
+
+	/* Keep a mission's heading, summary, and bullets together where possible */
+	.item {
+		break-inside: avoid;
+		page-break-inside: avoid;
+	}
+
+	a {
+		color: inherit !important;
+		text-decoration: underline;
+	}
+}
